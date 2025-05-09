@@ -1,0 +1,45 @@
+.SideBar_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.Side_Bar_Nav_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #e2e8f0;
+    width: 80%;
+    padding: 10px 25px;
+    border-right: none;
+    text-decoration: none;
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.Side_Bar_active{
+    background-color: #ffebf5;
+    border: 2px solid #c586a5;
+    border-right: none;
+}
+
+.Side_bar_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.Side_Bar_Para{
+    font-size: 16px;
+    color: #222;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:768px) {
+    .Side_Bar_Para{
+        display: none;
+    }
+}

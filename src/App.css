@@ -1,0 +1,23 @@
+.Admin_app_main_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
+.App_Header_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.Admin_card_container{
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 6px;
+}
+
+.Admin_side_bar_section{
+    border-right: 2px solid #e2e8f0;
+    min-height: 100vh;
+    padding: 10px 0;
+}

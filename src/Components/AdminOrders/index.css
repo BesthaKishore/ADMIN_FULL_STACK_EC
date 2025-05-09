@@ -1,0 +1,102 @@
+.Admin_order_main_conatainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px 30px;
+}
+
+.Order_heading{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4b5563;
+    text-transform: uppercase;
+}
+
+.Order_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.order_image_container{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 20px 15px;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+}
+
+.parcel_icons{
+    width: 80px;
+}
+
+.Parcel_detailes_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.Parcel_detailes_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+.parcel_name{
+    font-size: 12px;
+    color: #374151;
+    font-weight: 500;
+}
+
+.user_address_container,.Parcel_detailes_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.user_name{
+    font-size: 12px;
+    color: #374151;
+    text-transform: capitalize;
+}
+
+.user_name_active{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user_select{
+    padding: 8px 10px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    outline-color: #c586a5;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+    .order_image_container{
+        grid-template-columns: 0.5fr 2fr 1fr;
+    }
+}
+
+@media screen and (max-width:677px) {
+    .order_image_container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .user_select{
+        width: 100%;
+    }
+} 
